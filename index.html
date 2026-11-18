@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0d"><meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Rap Live">
+<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css"><title>Rap Live Studio</title>
+</head>
+<body>
+<header class="topbar"><div class="brandmark">RAP<span>LIVE</span></div><div class="livepill"><i></i> RÉGIE MOBILE</div></header>
+<main>
+<section class="intro">
+ <div class="eyebrow">TON MÉDIA • TON ÉMISSION</div>
+ <h1>Le rap se joue<br><em>en direct.</em></h1>
+ <p>Ta régie mobile pour quiz, battles et devinettes rap francophone.</p>
+</section>
+<section class="identity card">
+ <label for="brand">NOM DE TON COMPTE TIKTOK</label>
+ <div class="row"><input id="brand" maxlength="40" placeholder="@toncompte"><button id="saveBrand" class="smallbtn">OK</button></div>
+</section>
+<section class="card">
+ <div class="sectionhead"><h2>Choisis ton émission</h2><span class="counter" id="roundCounter">MANCHE 0</span></div>
+ <div class="modes">
+  <button class="mode selected" data-mode="quiz"><b>🧠</b><span>QUIZ RAP</span></button>
+  <button class="mode" data-mode="versus"><b>⚔️</b><span>RAP VS RAP</span></button>
+  <button class="mode" data-mode="guess"><b>🕵️</b><span>DEVINE</span></button>
+ </div>
+ <button id="next" class="primary full">LANCER UNE MANCHE <span>→</span></button>
+ <div id="roundView" class="roundview empty">Choisis un format puis lance ta première manche.</div>
+ <div class="actions">
+  <button id="clue" class="secondary">Indice suivant</button>
+  <button id="reveal" class="secondary">Révéler</button>
+  <button id="pause" class="secondary">Pause</button>
+ </div>
+</section>
+<section class="card">
+ <div class="sectionhead"><h2>Réponses & votes</h2><span class="counter">RÉGIE</span></div>
+ <p class="hint">Saisis ici les réponses lues dans les commentaires TikTok. Cette version ne lit pas automatiquement le chat TikTok.</p>
+ <div class="formrow"><input id="player" placeholder="Pseudo du spectateur"><input id="answer" placeholder="Sa réponse"></div>
+ <button id="submitAnswer" class="primary full">VALIDER LA RÉPONSE</button>
+ <div class="voteactions"><button id="voteA" class="secondary">Vote A +1</button><button id="voteB" class="secondary">Vote B +1</button></div>
+ <div id="feedback" class="feedback" aria-live="polite"></div>
+</section>
+<section class="card">
+ <div class="sectionhead"><h2>Classement</h2><button id="clearScores" class="textbtn">Effacer</button></div>
+ <div id="scores" class="scores"><p class="hint">Le classement apparaîtra ici.</p></div>
+</section>
+<section class="card tools">
+ <h2>Pour ton LIVE</h2>
+ <div class="toolrow"><span>📱</span><div><b>Mode iPhone</b><p>Garde la régie ouverte pendant tes manches. Évite de verrouiller l'écran.</p></div></div>
+ <div class="toolrow"><span>🎥</span><div><b>Diffusion TikTok</b><p>Lance ton LIVE dans TikTok séparément. L'habillage de cette page ne se superpose pas à la caméra TikTok.</p></div></div>
+ <div class="toolrow"><span>💬</span><div><b>Participation</b><p>Lis les commentaires et saisis les réponses ou votes dans la régie.</p></div></div>
+</section>
+<footer>RAP LIVE STUDIO · CULTURE · RESPECT · RAP FRANCOPHONE</footer>
+</main>
+<nav class="bottomnav"><a href="#top" class="active">Régie</a><a href="#scores">Classement</a><button id="installHelp">Installer</button></nav>
+<div id="toast" class="toast" role="status"></div>
+<script src="app.js"></script>
+</body></html>

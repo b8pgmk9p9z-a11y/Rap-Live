@@ -1,0 +1,44 @@
+RAP LIVE STUDIO — VERSION IPHONE
+
+IMPORTANT
+Cette version est une application web progressive (PWA). Pour l'installer sur l'écran d'accueil iPhone, elle doit être hébergée sur une adresse HTTPS. Ouvrir un simple fichier HTML local ne suffit pas pour installer la PWA ni pour activer le service worker.
+
+FICHIERS
+- index.html : interface iPhone
+- style.css : design mobile
+- app.js : logique quiz, battles, scores
+- questions.json : banque de questions
+- manifest.webmanifest et sw.js : installation et cache PWA
+- icons : icônes iPhone
+
+MISE EN LIGNE GRATUITE
+Une option simple est GitHub Pages :
+1. Crée un compte GitHub si tu n'en as pas.
+2. Crée un dépôt public nommé rap-live-studio.
+3. Envoie tous les fichiers et dossiers de ce projet à la racine du dépôt.
+4. Dans Settings > Pages, active le déploiement depuis la branche main et le dossier / (root).
+5. Attends la publication et ouvre l'adresse HTTPS fournie sur Safari iPhone.
+
+INSTALLATION IPHONE
+1. Ouvre l'adresse HTTPS publiée dans Safari (pas dans le navigateur intégré TikTok).
+2. Touche Partager.
+3. Choisis « Sur l'écran d'accueil ».
+4. Active « Ouvrir comme app » si iOS affiche cette option, puis touche Ajouter.
+5. Lance Rap Live depuis l'icône.
+
+UTILISATION
+- Saisis ton pseudo TikTok.
+- Choisis Quiz Rap, Rap VS Rap ou Devine.
+- Lance une manche, révèle les réponses et ajoute les votes.
+- Les scores sont conservés dans le stockage local du navigateur sur cet iPhone.
+
+LIMITES IMPORTANTES
+- Les réponses et votes sont saisis manuellement dans cette version.
+- L'app ne lit pas automatiquement les commentaires TikTok et ne se connecte pas à ton compte.
+- L'app ne peut pas afficher une surcouche au-dessus de TikTok LIVE ni piloter TikTok.
+- Sur iPhone, iOS peut suspendre une PWA en arrière-plan. Ne compte pas sur un minuteur ou une manche qui continue si tu quittes l'app ou verrouilles l'écran.
+- Pour diffuser le quiz avec son habillage à l'écran, il faut un dispositif de diffusion compatible (par exemple un ordinateur/logiciel de streaming ou un second appareil). Un seul iPhone ne peut pas simplement injecter cette page comme overlay dans le LIVE TikTok natif.
+- L'accès à TikTok LIVE dépend de l'éligibilité du compte et des fonctions proposées par TikTok.
+
+DROITS
+N'utilise que des images, vidéos, extraits d'interviews ou musiques dont tu possèdes les droits ou pour lesquels tu as une autorisation. Les questions et duels de cette banque sont des amorces à vérifier avant publication.

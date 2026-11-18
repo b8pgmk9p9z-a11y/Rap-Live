@@ -1,0 +1,244 @@
+{
+  "quiz": [
+    {
+      "q": "Quel rappeur a sorti l'album « Or noir » ?",
+      "choices": [
+        "Kaaris",
+        "Booba",
+        "Lacrim",
+        "Gradur"
+      ],
+      "a": 0,
+      "why": "« Or noir » est un album de Kaaris paru en 2013."
+    },
+    {
+      "q": "Quel groupe est composé de JoeyStarr et Kool Shen ?",
+      "choices": [
+        "IAM",
+        "Suprême NTM",
+        "Fonky Family",
+        "Lunatic"
+      ],
+      "a": 1,
+      "why": "Suprême NTM est le duo formé par JoeyStarr et Kool Shen."
+    },
+    {
+      "q": "Qui a sorti l'album « Dans ma bulle » ?",
+      "choices": [
+        "Diam's",
+        "Keny Arkana",
+        "Chilla",
+        "Casey"
+      ],
+      "a": 0,
+      "why": "« Dans ma bulle » est un album de Diam's paru en 2006."
+    },
+    {
+      "q": "Quel groupe a sorti « L'École du micro d'argent » ?",
+      "choices": [
+        "IAM",
+        "Fonky Family",
+        "Psy 4 de la Rime",
+        "3e Œil"
+      ],
+      "a": 0,
+      "why": "Cet album emblématique est sorti par IAM en 1997."
+    },
+    {
+      "q": "Quel rappeur belge a sorti « Lithopédion » ?",
+      "choices": [
+        "Hamza",
+        "Damso",
+        "Roméo Elvis",
+        "Caballero"
+      ],
+      "a": 1,
+      "why": "« Lithopédion » est un album de Damso paru en 2018."
+    },
+    {
+      "q": "Quel duo a sorti l'album « Deux frères » ?",
+      "choices": [
+        "PNL",
+        "Djadja & Dinaz",
+        "Bigflo & Oli",
+        "Tandem"
+      ],
+      "a": 0,
+      "why": "« Deux frères » est un album de PNL paru en 2019."
+    },
+    {
+      "q": "Qui a sorti l'album « Civilisation » ?",
+      "choices": [
+        "Nekfeu",
+        "Orelsan",
+        "Vald",
+        "Lomepal"
+      ],
+      "a": 1,
+      "why": "« Civilisation » est un album d'Orelsan paru en 2021."
+    },
+    {
+      "q": "Quel rappeur a sorti l'album « Feu » ?",
+      "choices": [
+        "Nekfeu",
+        "Alpha Wann",
+        "Josman",
+        "Disiz"
+      ],
+      "a": 0,
+      "why": "« Feu » est le premier album solo de Nekfeu, paru en 2015."
+    },
+    {
+      "q": "Quel artiste belge a sorti « Paradise » ?",
+      "choices": [
+        "Damso",
+        "Hamza",
+        "Stromae",
+        "Zwangere Guy"
+      ],
+      "a": 1,
+      "why": "« Paradise » est un album de Hamza paru en 2019."
+    },
+    {
+      "q": "Quel rappeur a sorti « La fête est finie » ?",
+      "choices": [
+        "Orelsan",
+        "Booba",
+        "Niska",
+        "Kery James"
+      ],
+      "a": 0,
+      "why": "« La fête est finie » est un album d'Orelsan paru en 2017."
+    },
+    {
+      "q": "Ademo et N.O.S forment quel groupe ?",
+      "choices": [
+        "PNL",
+        "Lunatic",
+        "S-Crew",
+        "1995"
+      ],
+      "a": 0,
+      "why": "Ademo et N.O.S sont les deux membres de PNL."
+    },
+    {
+      "q": "Quel groupe belge est associé à Zwangere Guy ?",
+      "choices": [
+        "Stikstof",
+        "Lunatic",
+        "PNL",
+        "1995"
+      ],
+      "a": 0,
+      "why": "Zwangere Guy est notamment membre du collectif bruxellois Stikstof."
+    }
+  ],
+  "guess": [
+    {
+      "a": "Booba",
+      "clues": [
+        "Je viens de Boulogne-Billancourt.",
+        "J'ai fait partie du duo Lunatic.",
+        "Mon label est associé au nom 92i."
+      ]
+    },
+    {
+      "a": "Damso",
+      "clues": [
+        "Je suis un rappeur belge.",
+        "Mon album « Ipséité » est sorti en 2017.",
+        "Mon nom de scène commence par D."
+      ]
+    },
+    {
+      "a": "Orelsan",
+      "clues": [
+        "Je viens de Caen.",
+        "Je forme aussi le duo Casseurs Flowters avec Gringe.",
+        "J'ai sorti l'album « Civilisation »."
+      ]
+    },
+    {
+      "a": "Nekfeu",
+      "clues": [
+        "J'ai fait partie du collectif 1995.",
+        "Mon premier album solo s'appelle « Feu ».",
+        "Je suis aussi membre de S-Crew."
+      ]
+    },
+    {
+      "a": "Kaaris",
+      "clues": [
+        "Je suis associé à Sevran.",
+        "Mon album « Or noir » est sorti en 2013.",
+        "Je suis une figure de la trap française."
+      ]
+    },
+    {
+      "a": "Diam's",
+      "clues": [
+        "Je suis une rappeuse française.",
+        "J'ai sorti « Dans ma bulle ».",
+        "Mon titre « La boulette » a connu un grand succès."
+      ]
+    },
+    {
+      "a": "Hamza",
+      "clues": [
+        "Je suis un rappeur belge.",
+        "On me surnomme parfois Saucegod.",
+        "J'ai sorti l'album « Paradise »."
+      ]
+    },
+    {
+      "a": "Ninho",
+      "clues": [
+        "Je suis un rappeur français originaire de Longjumeau.",
+        "Mon projet « Destin » est sorti en 2019.",
+        "Mon nom de scène commence par N."
+      ]
+    }
+  ],
+  "versus": [
+    [
+      "Booba",
+      "Rohff",
+      "Qui a le plus marqué le rap français ?"
+    ],
+    [
+      "Ninho",
+      "Niska",
+      "Qui choisirais-tu pour un featuring ?"
+    ],
+    [
+      "Damso",
+      "Hamza",
+      "Qui a l'univers musical le plus reconnaissable ?"
+    ],
+    [
+      "PNL",
+      "Djadja & Dinaz",
+      "Quel duo préfères-tu ?"
+    ],
+    [
+      "Orelsan",
+      "Nekfeu",
+      "Qui préfères-tu en solo ?"
+    ],
+    [
+      "Kaaris",
+      "Gradur",
+      "Qui préfères-tu sur une prod trap ?"
+    ],
+    [
+      "SCH",
+      "Freeze Corleone",
+      "Qui a l'univers visuel le plus fort ?"
+    ],
+    [
+      "Gazo",
+      "Tiakola",
+      "Qui choisirais-tu pour un morceau de l'été ?"
+    ]
+  ]
+}
